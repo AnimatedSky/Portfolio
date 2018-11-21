@@ -12,6 +12,12 @@ body{
     font-size: 1.5em;
 	margin: 0;
 	padding: 0;
+    
+}
+
+img{
+    width: 50vmin;
+    height: auto;
 }
 
 header{
@@ -100,10 +106,11 @@ a:visited{
 
 /*website navigation*/
 .nav1{
-    overflow: hidden;
     text-align: center;
     background: #000000;
     width: 100%;
+    font-size: 125%;
+    padding: 10px
 }
 
 .nav1:link{
@@ -114,7 +121,7 @@ a:visited{
 .nav1:visited{
         color: #e4e4e4;
 }
-.nav1:hover{
+a.nav1:hover{
     background: #192152;
 }
 /*end of website navigation*/
