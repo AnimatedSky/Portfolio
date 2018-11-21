@@ -15,7 +15,7 @@ body{
 }
 
 header{
-    background: url("../_images/banners/banner.jpg") #000000;
+    background: url("../images/banners/banner.jpg") #000000;
 	background-size: cover;
     text-align: right;
     height: 300px;
