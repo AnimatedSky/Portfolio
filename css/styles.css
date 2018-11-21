@@ -18,10 +18,8 @@ header{
     background: url("../images/banners/banner.jpg") #000000;
 	background-size: cover;
     text-align: right;
-    height: 300px;
-    
+    height: 300px;   
     color: #e4e4e4;
-	
 }
 
 footer{
@@ -75,10 +73,22 @@ a:visited{
 	height: 50vh;
 	border-style: solid;
 	margin: 5px;
-	display:inline-grid; 
+	display:inline-grid;
+    
 	
 }
 /*end of Work Esperience*/
+
+.skills{
+	background: #0091ac;
+	width: 23%;
+	height: 50vh;
+	border-style: solid;
+	margin: 5px;
+	display: inline-table;
+    padding: inherit;
+	
+}
 
 
 .download{
@@ -88,10 +98,12 @@ a:visited{
 
 /*website navigation*/
 .nav1{
+    overflow: hidden;
     text-align: center;
     background: #000000;
     width: 100%;
 }
+
 .nav1:link{
     
     font-weight: bold;
