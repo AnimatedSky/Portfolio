@@ -119,10 +119,19 @@ a:visited{
 }
 /* end of in page navigation*/
 
+.VideoGallery{
+    text-align: center;    
+}
+
+div.video{
+    margin: 10px;
+    border: 1px solid #ccc;   
+}
 
 /*Galley page*/
 .GalleryPage{
     text-align: center;
+    height: 50vh
 }
 
 div.gallery {
