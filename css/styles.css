@@ -15,6 +15,11 @@ body{
     
 }
 
+h1[
+    margin: 5px;
+    padding: 5px; 
+]
+
 img{
     width: 50vmin;
     height: auto;
@@ -185,4 +190,9 @@ div.desc {
 /* paragraph format */
 p.pwidth{
     width: 50%;
+}
+
+p{
+    padding: 5px;
+    margin: 5px;
 }
